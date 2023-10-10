@@ -7,7 +7,7 @@ app.set('view engine', 'ejs')
 app.get("/", function (request, response){
     response.render('pages/index')
 })
-app.listen(8080)
+
 app.get("/sobre", function (request, response){
     response.render('pages/about')
 })
